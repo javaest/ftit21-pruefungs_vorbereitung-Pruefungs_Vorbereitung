@@ -1,14 +1,14 @@
 package vorlage2;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import vorlage.Messwert;
+import vorlage.Main;
 
 
-public class MesswertTest {
+public class MainTest {
 	
     @Test
     public void test() {
-    	Messwert test=new Messwert();
+    	Main test=new Main();
     	int x=test.check(10);
     	assertEquals(10, x);
     }
