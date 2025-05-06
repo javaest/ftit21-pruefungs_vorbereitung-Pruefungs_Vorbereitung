@@ -57,7 +57,7 @@ Die Beziehung zwischen den Klassen ist wie folgt:
 
 - `void fahrzeugZuweisen(Fahrer f, Fahrzeug v)`
 - `void fahrzeugEntfernenVonFahrer(Fahrer f, Fahrzeug v)`
-- `List<Fahrzeug> findeFahrzeugeEinerAbteilung()Abteilung abteilung`
+- `List<Fahrzeug> findeFahrzeugeEinerAbteilung(Abteilung abteilung`)
 
 
 ## 🧪 Tests mit JUnit 4
