@@ -56,11 +56,11 @@ Die Beziehung zwischen den Klassen ist wie folgt:
 ## 🛠️ Methoden in `FuhrparkService`
 
 - `void fahrzeugZuweisen(Fahrer f, Fahrzeug v)`
-- `void fahrzeugEntfernenVonFahrer(Fahrzeug v)`
-- `List<Fahrzeug> findeFahrzeugeEinerAbteilung(String abteilungsname)`
+- `void fahrzeugEntfernenVonFahrer(Fahrer f, Fahrzeug v)`
+- `List<Fahrzeug> findeFahrzeugeEinerAbteilung()Abteilung abteilung`
 
 
-## 🧪 Tests mit JUnit 5
+## 🧪 Tests mit JUnit 4
 
 - Schreibe zu jeder Methode mindestens **einen Testfall**
 - Nutze `@BeforeEach` zum Vorbereiten von Objekten
